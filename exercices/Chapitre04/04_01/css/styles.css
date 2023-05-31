@@ -1,0 +1,343 @@
+:root {
+    --blue: #00368C;
+    --light-blue: #6ba4ff;
+    --orange:  #FF9700;
+    --light-orange: #ffd599;
+    --black: #000;
+    --dark-grey: #383838;
+    --dark-grey-hover: #646464;
+    --white:#FFF;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--black);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#mainHeader{
+    background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-auto-rows: 50px;
+}
+#mainHeader .hamburger {
+    background: var(--dark-grey);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height:50px;
+    padding: 10px;
+    position: relative;
+}
+#mainHeader .hamburger:hover {
+    background-color: var(--dark-grey-hover);
+}
+#mainHeader .hamburger span, #mainHeader .hamburger span::before, #mainHeader .hamburger span::after{
+    display: block;
+    background-color: var(--white);
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    transition: rotate .3s;
+}
+#mainHeader .hamburger span::before {
+    content: '';
+    margin-top: -8px;
+}
+#mainHeader .hamburger span::after {
+    content: '';
+    margin-top: 8px;
+}
+#mainHeader .hamburger.clicked span{
+    background-color: rgba(255,255,255,0);
+}
+#mainHeader .hamburger.clicked span::before{
+    margin: 0;
+    rotate: 405deg;
+}
+#mainHeader .hamburger.clicked span::after{
+    margin: 0;
+    rotate: -405deg;
+}
+#mainHeader #topNav {
+    padding: 0px 5px;
+}
+#mainHeader #topNav > ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+#mainHeader #topNav > ul > li {
+    position: relative;
+}
+#mainHeader #topNav > ul > li:has(ul) > a::after{
+    content: "\005E";
+    display: inline-block;
+    font-size: .8em;
+    rotate: 180deg;
+    margin-left: 10px;
+    transition: rotate .3s;
+}
+#mainHeader #topNav > ul > li:has(ul):hover > a::after{
+    rotate: 0deg;
+}
+
+#mainHeader #topNav a {
+    color: var(--orange);
+    display: block;
+    text-decoration: none;
+    padding:  10px 10px 5px 10px;
+    border-bottom: 5px solid var(--blue);
+}
+#mainHeader #topNav a:hover {
+    border-bottom-color: var(--orange);
+}
+#mainHeader #topNav ul ul{
+    background-color: var(--blue);
+    position: absolute;
+    z-index: 10000;
+    width: max-content;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .3s;
+}
+#mainHeader #topNav ul li:hover ul{
+    max-height: 200px;
+}
+#mainHeader #topNav ul ul a{
+    font-size: .8em;
+}
+#mainHeader #menuUser {
+    background: none;
+    border:none;
+    color: var(--white);
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color .2s;
+}
+#mainHeader #menuUser:hover, #mainHeader #menuUser.clicked{
+    color: var(--light-blue);
+}
+#mainContent{
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    transition: left .5s;
+}
+.expandUserTools #mainContent{
+    left: -235px;
+}
+#mainContent #leftMenu {
+    background-color: var(--dark-grey);
+    position: fixed;
+    left: -100%;
+    height: calc(100% - 100px);
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#mainContent #leftMenu.expanded{
+    left: 0;
+}
+#mainContent #leftMenu a{
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color .2s;
+}
+#mainContent #leftMenu a:hover {
+    color: var(--light-blue);
+}
+#mainContent #leftMenu a span:first-child{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+#mainContent #leftMenu a span:last-child{
+    padding: 10px 20px 10px 0;
+}
+#mainContent #leftMenu figure {
+    margin: 0 auto;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+#mainContent #dashboardContent {
+    overflow-y: auto;
+    min-height: calc(100vh - 100px);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#mainContent #dashboardContent h1 {
+    font-size: 1.3em;
+}
+#mainContent #dashboardContent #dashboards {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: dense;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#mainContent #dashboardContent article {
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    height: 100%;
+    display: grid;
+    position: relative;
+}
+#mainContent #dashboardContent article figure {
+    margin: 0;
+}
+#mainContent #dashboardContent article div {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#mainContent #dashboardContent article div.front{
+    z-index: 2;
+}
+#mainContent #dashboardContent article div.back{
+    z-index: 1;
+    rotate: y 180deg;
+}
+#mainContent #dashboardContent article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+#mainContent #dashboardContent article .cardText{
+    padding: 10px;
+    font-size: .8em;
+}
+#mainContent #dashboardContent article .cardText h1 {
+    color: var(--blue);
+}
+#mainContent #dashboardContent article footer {
+    padding: 10px;
+    display: flex;
+    background-color: #eeeeee;
+    border-radius: 0 0 4px 4px;
+}
+#mainContent #dashboardContent article .front footer {
+    justify-content: space-between;
+}
+#mainContent #dashboardContent article .back footer {
+    justify-content: end;
+}
+#mainContent #dashboardContent article footer a{
+    text-decoration: none;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--white);
+    transition: background-color .2s;
+}
+#mainContent #dashboardContent article footer a:hover{
+    background-color: var(--light-orange);
+}
+#mainContent #dashboardContent article footer button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    transition: color .2s
+}
+#mainContent #dashboardContent article footer button:hover{
+    color: var(--orange);
+}
+#mainContent #userMenu{
+    background-color: var(--light-blue);
+    position: fixed;
+    right: -235px;
+    width: 235px;
+    height: calc(100% - 100px);
+    transition: right .5s;
+}
+.expandUserTools #mainContent #userMenu{
+    right: 0;
+}
+#mainContent #userMenu a{
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color .2s;
+}
+#mainContent #userMenu a:hover{
+    color: var(--white);
+}
+#mainContent #userMenu a span:first-child{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#mainContent #userMenu a span:last-child{
+    padding: 10px 20px 10px 0;
+}
+#mainFooter{
+    background-color: var(--dark-grey);
+    color: var(--white);
+    padding: 0 10px;
+    height: 50px;
+    font-size: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    #mainContent #leftMenu {
+        left: 0;
+        width: 50px;
+        overflow: hidden;
+        transition: width .5s;
+    }
+    #mainContent #leftMenu.expanded {
+        width: 200px;
+    }
+    #mainContent #dashboardContent {
+        margin-left: 50px;
+    }
+    #mainContent #dashboardContent #dashboards {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    #mainContent #dashboardContent #dashboards .landscape{
+        grid-column: span 2;
+    }
+}
