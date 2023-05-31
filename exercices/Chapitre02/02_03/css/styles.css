@@ -126,6 +126,7 @@ body{
     flex-direction: column;
     position: relative;
     left: 0;
+    transition: left .5s;
 }
 .expandUserTools #mainContent{
     left: -235px;
@@ -267,6 +268,7 @@ body{
     right: -235px;
     width: 235px;
     height: calc(100% - 100px);
+    transition: right .5s;
 }
 .expandUserTools #mainContent #userMenu{
     right: 0;
@@ -309,6 +311,7 @@ body{
         left: 0;
         width: 50px;
         overflow: hidden;
+        transition: width .5s;
     }
     #mainContent #leftMenu.expanded {
         width: 200px;
