@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/menu.js" defer></script>
     <style>
+        #mainContent #leftMenu {
+            width: 50px
+        }
+        #mainContent #leftMenu.expanded{
+            width: 200px;
+        }
         #mainContent{
             position: relative;
             left: 0;
@@ -16,13 +22,7 @@
         .expandUserTools #mainContent{
             left: -235px;
         }
-        #mainContent #leftMenu {
-            position: fixed;
-            left: -100%;
-        }
-        #mainContent #leftMenu.expanded{
-            left: 0;
-        }
+        
         #mainContent #userMenu{
             position: fixed;
             right: -235px;
