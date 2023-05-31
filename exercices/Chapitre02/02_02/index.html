@@ -9,22 +9,25 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/menu.js" defer></script>
     <style>
-        #mainHeader .hamburger span, #mainHeader .hamburger span::before, #mainHeader .hamburger span::after{
-            display: block;
-            background-color: var(--white);
-            width: 30px;
-            height: 4px;
-            border-radius: 2px;
-            position: absolute;
+        #mainContent #leftMenu {
+            width: 50px;
         }
-        #mainHeader .hamburger.clicked span{
-
+        #mainContent #leftMenu.expanded{
+            width: 200px;
         }
-        #mainHeader .hamburger.clicked span::before{
-            
+        #mainContent #userMenu{
+            position: fixed;
+            right: -235px;
         }
-        #mainHeader .hamburger.clicked span::after{
-            
+        .expandUserTools #mainContent #userMenu{
+            right: 0;
+        }
+        #mainContent{
+            position: relative;
+            left: 0;
+        }
+        .expandUserTools #mainContent{
+            left: -235px;
         }
     </style>
 </head>
