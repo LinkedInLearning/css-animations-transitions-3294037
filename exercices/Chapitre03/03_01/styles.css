@@ -3,8 +3,9 @@ body{
   background: #24436E;
 }
 div.wrapper{
-  width: 300px;
-  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div.text{
   color: #FFF;
@@ -16,9 +17,9 @@ section{
   background: #8C57AC;
   color:#FFF;
   font-size: 2em;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid 6px #C68335;
   border-radius: 15px;
 }
