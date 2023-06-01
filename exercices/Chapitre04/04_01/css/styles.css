@@ -214,7 +214,6 @@ body{
     margin: 0;
 }
 #mainContent #dashboardContent article div {
-    background-color: var(--white);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
