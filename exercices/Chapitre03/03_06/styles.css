@@ -1,0 +1,25 @@
+body{
+  padding: 100px;
+  background: #24436E;
+}
+div.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.text{
+  color: #FFF;
+}
+section{
+  box-sizing: border-box;
+  height: 200px;
+  width: 300px;
+  background: #8C57AC;
+  color:#FFF;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 6px #C68335;
+  border-radius: 15px;
+}
