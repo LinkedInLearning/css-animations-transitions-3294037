@@ -208,28 +208,19 @@ body{
     border: 2px solid var(--blue);
     border-radius: 5px;
     height: 100%;
-    display: grid;
     position: relative;
 }
 #mainContent #dashboardContent article figure {
     margin: 0;
 }
 #mainContent #dashboardContent article div {
-    grid-column: 1;
-    grid-row: 1;
     background-color: var(--white);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-#mainContent #dashboardContent article div.front{
-    z-index: 2;
-}
-#mainContent #dashboardContent article div.back{
-    z-index: 1;
-    rotate: y 180deg;
-}
+
 #mainContent #dashboardContent article img {
     max-width: 100%;
     height: auto;
