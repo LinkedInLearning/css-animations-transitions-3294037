@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    section {
+      animation-name: slide;
+      animation-duration: 5s;
+      animation-delay: 3s;
+      animation-fill-mode: both;
+    }
+    @keyframes slide {
+      0% {
+        translate: 400px;
+        rotate: 0;
+      }
+      20% {
+        translate: -50px;
+        rotate: -0.5turn;
+      }
+      100% {
+        translate: 800px;
+        rotate: 2turn
+      }      
+    }
+  </style>
+</head>
+<body>
+  <section><p>Animez-moi<p></section>
+</body>
+</html>
