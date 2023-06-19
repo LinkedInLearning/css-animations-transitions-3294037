@@ -32,13 +32,13 @@ La branche master correspond au code à la fin de la formation.
 
 ### Formateur
 
-**Nom du formateur** 
+**Damien Bruyndonckx** 
 
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
 [lil-thumbnail-url]: https:
-[lil-URL-trainer]: https://
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/damien-bruyndonckx
 
 [1]: # (End of FR-Instruction ###############################################################################################)
