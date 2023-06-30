@@ -7,15 +7,11 @@ Ce dossier Repository est lié au cours `CSS : Animations et transitions (2023)`
 
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
 
-Dans cette formation qui s'adresse aux développeurs web front-end, vous découvrirez, grâce aux nombreuses démonstrations pratiques de Damien Bruyndonckx, les animations et les transitions CSS. Vous commencerez par les différents types de transitions et de leurs propriétés, puis vous aborderez les transformations 2D et 3D. Votre formation se poursuivra avec les animations, y compris avec les images au format SVG ainsi que les chemins vectoriels de type motion path.
+Dans cette formation qui s'adresse aux développeurs et développeuses web front-end, vous découvrirez, grâce aux nombreuses démonstrations pratiques de Damien Bruyndonckx, les animations et les transitions CSS. Vous commencerez par les différents types de transitions et de leurs propriétés, puis vous aborderez les transformations 2D et 3D. Votre formation se poursuivra avec les animations, y compris avec les images au format SVG ainsi que les chemins vectoriels de type motion path.
 
 ## Instructions
 
 Les exercices relatifs à cette formation se trouvent dans le dossier `exercices` de ce dépôt. Dans le dossier `exercises`, les fichiers ont été divisés en chapitres, puis en vidéos. Par exemple, le dossier `Chapitre01\01_04` contient les fichiers d'exercices utilisés dans la quatrième vidéo du premier chapitre. Les fichiers et les dossiers inclus dans ce dépôt reflètent l'état de départ de chaque vidéo.  
-
-## Branches
-
-Ce dépôt ne contient que la branche `main`. Vous y trouverez tous les fichiers d'exercices nécessaires à cette formation.
 
 ## Installation
 
