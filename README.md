@@ -7,26 +7,21 @@ Ce dossier Repository est lié au cours `CSS : Animations et transitions (2023)`
 
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
 
-Dans cette formation qui s'adresse aux développeurs web front-end, vous découvrirez, grâce aux nombreuses démonstrations pratiques de Damien Bruyndonckx, les animations et les transitions CSS, le langage de création et de gestion des feuilles de style en cascade. Vous commencerez par les différents types de transitions et de leurs propriétés, puis vous aborderez les transformations 2D et 3D. Votre formation se poursuivra avec les animations, y compris avec les images au format SVG ainsi que les chemins vectoriels de type motion path.
+Dans cette formation qui s'adresse aux développeurs web front-end, vous découvrirez, grâce aux nombreuses démonstrations pratiques de Damien Bruyndonckx, les animations et les transitions CSS. Vous commencerez par les différents types de transitions et de leurs propriétés, puis vous aborderez les transformations 2D et 3D. Votre formation se poursuivra avec les animations, y compris avec les images au format SVG ainsi que les chemins vectoriels de type motion path.
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
+Les exercices relatifs à cette formation se trouvent dans le dossier `exercices` de ce dépôt. Dans le dossier `exercises`, les fichiers ont été divisés en chapitres, puis en vidéos. Par exemple, le dossier `Chapitre01\01_04` contient les fichiers d'exercices utilisés dans la quatrième vidéo du premier chapitre. Les fichiers et les dossiers inclus dans ce dépôt reflètent l'état de départ de chaque vidéo.  
 
 ## Branches
 
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dépôt ne contient que la branche `main`. Elle contient tous les fichiers d'exercices nécessaires à cette formation.
 
 ## Installation
 
-1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
+Aucune installation n'est nécessaire pour suivre cette formation via CodeSpaces. Si vous préférez ne pas utiliser CodeSpaces, vous pouvez également télécharger les fichiers d'exercices localement et les utiliser avec n'importe quel éditeur de code. Pour ce faire, il vous suffit 
+1. De cloner ce dépôt sur votre machine locale. 
+2. D'ouvrez le dossier `exercices` dans votre éditeur préféré.
 
 ### Formateur
 
