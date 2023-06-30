@@ -21,7 +21,7 @@ Ce dépôt ne contient que la branche `main`. Vous y trouverez tous les fichiers
 
 Aucune installation n'est nécessaire pour suivre cette formation via CodeSpaces. Si vous préférez ne pas utiliser CodeSpaces, vous pouvez également télécharger les fichiers d'exercices localement et les utiliser avec n'importe quel éditeur de code. Pour ce faire, il vous suffit 
 1. De cloner ce dépôt sur votre machine locale. 
-2. D'ouvrez le dossier `exercices` dans votre éditeur préféré.
+2. D'ouvrir le dossier `exercices` dans votre éditeur préféré.
 
 ### Formateur
 
