@@ -15,7 +15,7 @@ Les exercices relatifs à cette formation se trouvent dans le dossier `exercices
 
 ## Branches
 
-Ce dépôt ne contient que la branche `main`. Elle contient tous les fichiers d'exercices nécessaires à cette formation.
+Ce dépôt ne contient que la branche `main`. Vous y trouverez tous les fichiers d'exercices nécessaires à cette formation.
 
 ## Installation
 
