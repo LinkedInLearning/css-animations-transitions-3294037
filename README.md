@@ -2,8 +2,8 @@
 
 Ce dossier Repository est lié au cours `CSS : Animations et transitions (2023)`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![image](https://github.com/LinkedInLearning/css-animations-transitions-3294037/assets/71371373/51e612d2-8209-46f6-b579-b8cc6dc9223a)
- 
+![image](https://github.com/LinkedInLearning/css-animations-transitions-3294037/assets/71371373/cb30360f-3057-46ab-932e-ffe1e54dcf36)
+
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
 
 Dans cette formation qui s'adresse aux développeurs et développeuses web front-end, vous découvrirez, grâce aux nombreuses démonstrations pratiques de Damien Bruyndonckx, les animations et les transitions CSS. Vous commencerez par les différents types de transitions et de leurs propriétés, puis vous aborderez les transformations 2D et 3D. Votre formation se poursuivra avec les animations, y compris avec les images au format SVG ainsi que les chemins vectoriels de type motion path.
