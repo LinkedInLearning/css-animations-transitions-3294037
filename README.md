@@ -1,6 +1,6 @@
-# CSS : Animations et transitions (2023)
+# CSS : Animations et transitions
 
-Ce dossier Repository est lié au cours `CSS : Animations et transitions (2023)`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `CSS : Animations et transitions`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![image](https://github.com/LinkedInLearning/css-animations-transitions-3294037/assets/71371373/cb30360f-3057-46ab-932e-ffe1e54dcf36)
 
@@ -26,7 +26,7 @@ Aucune installation n'est nécessaire pour suivre cette formation via CodeSpaces
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/css-animations-et-transitions-22819867/trailer
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEuBoFVYYH5cw/learning-public-crop_675_1200/0/1693306570048?e=2147483647&v=beta&t=7XMwZwwL8XQ0VGkkILIdqBA88b7dJC-XG71KKSgiH00
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/damien-bruyndonckx
 
 [1]: # (End of FR-Instruction ###############################################################################################)
