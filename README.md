@@ -2,7 +2,7 @@
 
 Ce dossier Repository est lié au cours `CSS : Animations et transitions`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![image](https://github.com/LinkedInLearning/css-animations-transitions-3294037/assets/71371373/cb30360f-3057-46ab-932e-ffe1e54dcf36)
+![image](https://media.licdn.com/dms/image/D560DAQEuBoFVYYH5cw/learning-public-crop_675_1200/0/1693306570048?e=2147483647&v=beta&t=7XMwZwwL8XQ0VGkkILIdqBA88b7dJC-XG71KKSgiH006)
 
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
 
